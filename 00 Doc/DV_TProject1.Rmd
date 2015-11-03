@@ -35,8 +35,13 @@ source("../01 Data/1.R",print.eval=FALSE)
 
 ###visualization
 
+This visualization shows the most efficient vehicles based on mileage and annual fuel costs incurred on the driver. Naturally, economy class cars tend to be more efficient and cost effective.
 ![](./v2.png) 
-![](./v1.png) 
+
+This visualization displays the most efficient cars and segments car models based on transmission and drive type. Front 2-wheel driven cars seem to be most efficient.
+![](./v1.png)
+
+This visualization breaks down cars by manufacturer and make. It then proceeds to aggregate fuel efficiency ratings for each car (and distinguishes between transmission types). Sports vehicles are clearly below the median mileage here.
 ![](./v3.png) 
 
 
