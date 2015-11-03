@@ -30,13 +30,13 @@ names(df)[44] <-"Camless_Valvetrain"
 names(df)[46] <-"Stop_Start_Engine"
 names(df)[47] <- "Calculated_Gas_Guzzler_MPG"
 names(df)[48] <-"FE_Rating_1_10"
-names(df)[49] <-"5_years_savings"
-names(df)[50] <-"5_years_spend"
+names(df)[49] <-"five_years_savings"
+names(df)[50] <-"five_years_spend"
 names(df)[53] <-"Comb_CO2_Rounded_Adjusted"
 df <-select(df,1:53)
 str(df) # Uncomment this and  run just the lines to here to get column types to use for getting the list of measures.
 
-measures <- c("Model_Year","Eng_Displ","Numbers_of_Cyl","City_FE_Guide","Hwy_FE_Guide","Comb_FE_Guide","Numbers_of_Gear","Max_Ethanol_Gasoline","Annual_Fuel1_Cost","Calculated_Annual_Fuel_Cost","EPA_FE_Label_Dataset_ID","Numbers_of_Batteries","Total_Voltage_for_Battery","Batt_Energy_Cpacity_Amp_hrs","Batt_Specific_Energy_Watt","Numbers_of_Drive_Motor_Gen","Rated_Motor_Gen_Power_kW","Calculated_Gas_Guzzler_MPG","FE_Rating_1_10","5_years_savings","5_years_spend","City_CO2_Rounded_Adjusted","Hwy_CO2_Rounded_Adjusted","Comb_CO2_Rounded_Adjusted")
+measures <- c("Model_Year","Eng_Displ","Numbers_of_Cyl","City_FE_Guide","Hwy_FE_Guide","Comb_FE_Guide","Numbers_of_Gear","Max_Ethanol_Gasoline","Annual_Fuel_Cost","Calculated_Annual_Fuel_Cost","EPA_FE_Label_Dataset_ID","Numbers_of_Batteries","Total_Voltage_for_Battery","Batt_Energy_Cpacity_Amp_hrs","Batt_Specific_Energy_Watt","Numbers_of_Drive_Motor_Gen","Rated_Motor_Gen_Power_kW","Calculated_Gas_Guzzler_MPG","FE_Rating_1_10","five_years_savings","five_years_spend","City_CO2_Rounded_Adjusted","Hwy_CO2_Rounded_Adjusted","Comb_CO2_Rounded_Adjusted")
 #measures <- NA # Do this if there are no measures.
 
 # Get rid of special characters in each column.

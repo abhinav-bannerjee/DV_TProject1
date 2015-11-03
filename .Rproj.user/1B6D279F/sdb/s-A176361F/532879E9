@@ -1,0 +1,18 @@
+{
+    "contents" : "---\ntitle: \"DV_TProject1\"\noutput: html_document\n---\n\nName: Ke Chen, Abhinav Bannerjee\n\nUT EID: kc35827, ab45393\n\n```{r,message=FALSE,echo=FALSE}\nsource(\"../.Rprofile\",echo=FALSE)\n```\n###General Steps\n1. Find the .csv data of census on surname in 1990 and 2000 online.\n2. create the repository in Github.\n3 create project with four directories.\n4.Using R_etl.r to reformat our datas and import data into ORACL SQL.\n5. Query datas from server, and create dataframe.\n6. wrangle datas, use join command to regenerate a table and generate a plot for each.\n7. make explanation on each plot.\n8. Knit R, combine all file into a html file.\n\n\n\n\n###R_ETL.R file operation\nThe R_ETL file generates a code for us to create a table in Oracle SQL.\n```{r,message=FALSE,echo=FALSE}\nsource(\"../01 Data/1.R\")\n```\n\n\n\n\n\n###visualization\n\n![](./1.png) \n![](./2.png) \n![](./3.png) \n\n\n",
+    "created" : 1446519103172.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3587312514",
+    "id" : "532879E9",
+    "lastKnownWriteTime" : 1446519416,
+    "path" : "~/DV_TProject1/00 Doc/DV_TProject1.Rmd",
+    "project_path" : "00 Doc/DV_TProject1.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
