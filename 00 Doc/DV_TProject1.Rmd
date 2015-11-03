@@ -11,12 +11,12 @@ UT EID: kc35827, ab45393
 source("../.Rprofile",echo=FALSE)
 ```
 ###General Steps
-1. Find the .csv data of census on surname in 1990 and 2000 online.
+1. Find the .csv data 
 2. create the repository in Github.
 3 create project with four directories.
-4.Using R_etl.r to reformat our datas and import data into ORACL SQL.
-5. Query datas from server, and create dataframe.
-6. wrangle datas, use join command to regenerate a table and generate a plot for each.
+4. Using R_etl.r to reformat our datas and import data into ORACL SQL.
+5. Query datas from server, and create Tableau workbook.
+6. make three different grpah by using graph.
 7. make explanation on each plot.
 8. Knit R, combine all file into a html file.
 
@@ -30,18 +30,20 @@ source("../01 Data/1.R",print.eval=FALSE)
 ```
 
 
-
-
-
 ###visualization
 
-This visualization shows the most efficient vehicles based on mileage and annual fuel costs incurred on the driver. Naturally, economy class cars tend to be more efficient and cost effective.
+#####Scatter Plot
 ![](./v2.png) 
+This visualization shows the most efficient vehicles based on mileage and annual fuel costs incurred on the driver. Naturally, economy class cars tend to be more efficient and cost effective(cost less).
 
-This visualization displays the most efficient cars and segments car models based on transmission and drive type. Front 2-wheel driven cars seem to be most efficient.
+ ##### Crosstab
 ![](./v1.png)
 
-This visualization breaks down cars by manufacturer and make. It then proceeds to aggregate fuel efficiency ratings for each car (and distinguishes between transmission types). Sports vehicles are clearly below the median mileage here.
+This visualization displays the most efficient cars and segments car models based on transmission and drive type. Front 2-wheel driven cars seem to be most efficient, regardless transmission type.
+
+##### Bar Chart
 ![](./v3.png) 
+
+This visualization breaks down cars by manufacturer and make. It then proceeds to aggregate fuel efficiency ratings for each car (and distinguishes between transmission types). Sports vehicles are clearly below the median mileage here. The reference line stands for the median Combinantion Fuel. And we can see clearly which carline are below the median, and which are above the median. 
 
 
