@@ -1,5 +1,5 @@
 ---
-title: "DV_TProject1"
+title: "DV_TProject2"
 output: html_document
 ---
 
@@ -47,6 +47,7 @@ We create a dataset by ourselves. By adding countries from for each division.
 ####Scatter Plot
 ![](./v2.png) 
 This visualization shows the most efficient vehicles based on mileage and annual fuel costs incurred on the driver. Naturally, economy class cars tend to be more efficient and cost effective(cost less).
+
 Here is the plot produced by Rstudio.
 ```{r,message= FALSE,echo=FALSE,warning=FALSE,fig.width=16,fig.height=12}
 source("../03 R SQL Visualization/plot1.R",print.eval=TRUE,echo = TRUE)
@@ -56,6 +57,7 @@ source("../03 R SQL Visualization/plot1.R",print.eval=TRUE,echo = TRUE)
 ![](./v1.png)
 
 This visualization displays the most efficient cars and segments car models based on transmission and drive type. Front 2-wheel driven cars seem to be most efficient, regardless transmission type.
+
 Here is the plot produced by Rstudio.
 ```{r,message= FALSE,echo=FALSE,warning=FALSE,fig.width=15,fig.height=12}
 source("../03 R SQL Visualization/plot2.R",print.eval=TRUE,echo = TRUE)
@@ -76,6 +78,6 @@ source("../03 R SQL Visualization/plot3.R",print.eval = TRUE,echo = TRUE)
 
 ####New Bar Chart
 ![](./v5.png) 
-We have country and division in x axis, and median comb fe guide in y axis. We put fe rating as color. We can see which country produce more efficient cars.
+We put country and division in x axis, and median comb fe guide in y axis. We put fe rating as color. We can see which country produce more efficient cars.
 
 
