@@ -53,7 +53,7 @@ Here is the plot produced by Rstudio.
 source("../03 R SQL Visualization/plot1.R",print.eval=TRUE,echo = TRUE)
 ```
 
- #### Crosstab
+#### Crosstab
 ![](./v1.png)
 
 This visualization displays the most efficient cars and segments car models based on transmission and drive type. Front 2-wheel driven cars seem to be most efficient, regardless transmission type.
